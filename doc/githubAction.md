@@ -7,12 +7,13 @@
 | `JD_COOKIE` | 京东 | 必须 | 京东cookie,多个账号的cookie使用`&`隔开或者换行。具体获取参考[浏览器获取京东cookie教程](https://github.com/hajiuhajiu/code/blob/main/doc/GetJdCookie.md) 或者 [插件获取京东cookie教程](https://github.com/hajiuhajiu/code/blob/main/doc/GetJdCookie2.md) |
 
 ##### 京东隐私安全 环境变量
-|    `CITY_SHARECODES`      |  城城领现金<br>互助码  | 非必须 |            未知/未知            | 填写规则和上面类似，或见下方[互助码的填写规则](#互助码的填写规则) |
+|
 
 |      Name       |    归属     |  属性  | 默认值 | 说明                                                         |
 | :-------------: | :---------: | :----: | :----: | ------------------------------------------------------------ |
 |   `JD_DEBUG`    | 脚本打印log | 非必须 |  true  | 运行脚本时，是否显示log,默认显示。改成false表示不显示，注重隐私的人可以在设置secret -> `Name:JD_DEBUG,Value:false` |
 | `JD_USER_AGENT` |    京东     | 非必须 |        | 自定义此库里京东系列脚本的UserAgent，不懂不知不会UserAgent的请不要随意填写内容。如需使用此功能建议填写京东APP的UA |
+|    `CITY_SHARECODES`      |  城城领现金<br>互助码  | 非必须 |            未知/未知            | 填写规则和上面类似，或见下方[互助码的填写规则](#互助码的填写规则) 
 
 ##### 推送通知环境变量(目前提供`微信server酱`、`pushplus(推送加)`、`iOS Bark APP`、`telegram机器人`、`钉钉机器人`、`企业微信机器人`、`iGot`、`QQ酷推`等通知方式)
 
