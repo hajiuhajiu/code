@@ -7,6 +7,7 @@
 | `JD_COOKIE` | 京东 | 必须 | 京东cookie,多个账号的cookie使用`&`隔开或者换行。具体获取参考[浏览器获取京东cookie教程](https://github.com/hajiuhajiu/code/blob/main/doc/GetJdCookie.md) 或者 [插件获取京东cookie教程](https://github.com/hajiuhajiu/code/blob/main/doc/GetJdCookie2.md) |
 
 ##### 京东隐私安全 环境变量
+|    `CITY_SHARECODES`      |  城城领现金<br>互助码  | 非必须 |            未知/未知            | 填写规则和上面类似，或见下方[互助码的填写规则](#互助码的填写规则) |
 
 |      Name       |    归属     |  属性  | 默认值 | 说明                                                         |
 | :-------------: | :---------: | :----: | :----: | ------------------------------------------------------------ |
